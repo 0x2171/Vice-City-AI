@@ -1,13 +1,11 @@
-# 🚗 GTA: Vice City AI — Детекция объектов и дороги в реальном времени
+# 🚗 Vice-City-AI — Детекция объектов и дороги в реальном времени
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-SegFormer-red)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Object_Detection-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Проект **GTA-VC-AI** — это система компьютерного зрения, которая накладывает нейросетевую аналитику поверх окна игры *Grand Theft Auto: Vice City*. 
-
-В отличие от традиционных модов, этот инструмент работает **внешне** (через захват экрана), используя современные модели для семантической сегментации дороги и детекции игровых объектов (машин, пешеходов) в реальном времени.
+Проект **Vice-City-AI** — это система компьютерного зрения, которая накладывает нейросетевую аналитику поверх окна игры *Grand Theft Auto: Vice City*. 
 
 ---
 
