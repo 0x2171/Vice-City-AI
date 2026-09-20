@@ -1,0 +1,9 @@
+torch
+torchvision
+transformers
+tensorflow
+opencv-python
+numpy
+mss
+pywin32
+psutil
