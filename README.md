@@ -15,19 +15,16 @@
 
 ### 🚙 Только детекция объектов (TensorFlow)
 Распознавание автомобилей и главного героя (Tommy).
-![Object Detection](screenshots/img1.png)
+![Object Detection](screenshots/1.png)
 
 ### 🛣️ Детекция дороги + Объекты (SegFormer + TF)
 Семантическая сегментация дорожного полотна с наложением маски и детекцией объектов.
-![Road + Object Detection](screenshots/img2.png)
-
-### 🌙 Ночной режим
-Работа алгоритмов в условиях ночного освещения игры.
-![Night Mode](screenshots/img3.png)
+![Road + Object Detection](screenshots/2.png)
+![Road + Object Detection](screenshots/3.png)
 
 ### 📐 Анализ границ дороги
 Визуализация границ проезжей части и трекинг объектов на трассе.
-![Road Boundaries](screenshots/img4.png)
+![Road Boundaries](screenshots/4.png)
 
 ---
 
@@ -37,14 +34,13 @@
 *   **Фильтрация шума:** Встроенный HSV-фильтр отсекает зелёные пиксели (траву, кусты), чтобы маска дороги не "заливала" обочины.
 *   **Детекция объектов (Object Detection):** Использует **TensorFlow Frozen Graph** для поиска машин, людей и других сущностей с применением NMS (Non-Maximum Suppression).
 *   **Захват экрана:** Высокопроизводительный захват клиентской области окна через `mss` и `win32gui`.
-*   **Запись видео:** Встроенная функция записи экрана в `.mp4` (кодек `mp4v`) по нажатию горячей клавиши.
 *   **Оптимизация:** Поддержка FP16 (полуточность) и инференс не каждый кадр для повышения FPS.
 
 ---
 
 ## 🛠️ Технологический стек
 
-*   **Язык:** Python 3.8+
+*   **Язык:** Python 3.10+
 *   **Нейросети:** 
     *   `PyTorch` + `transformers` (SegFormer-b0)
     *   `TensorFlow` (Object Detection API)
@@ -61,6 +57,6 @@
 
 ### 2. Клонирование и зависимости
 ```bash
-git clone https://github.com/ВАШ_НИК/GTA-VC-AI.git
-cd GTA-VC-AI
+git clone https://github.com/0x2171/Vice-City-AI.git
+cd Vice-City-AI
 pip install -r requirements.txt
